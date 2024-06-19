@@ -20,17 +20,17 @@ export const navLinks = [
     id: "home",
     title: "Home",
   },
+  // {
+  //   id: "features",
+  //   title: "Features",
+  // },
   {
-    id: "features",
-    title: "Features",
+    id: "brand",
+    title: "Brand",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
+    id: "influencer",
+    title: "Influencer",
   },
 ];
 
