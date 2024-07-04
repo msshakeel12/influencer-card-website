@@ -30,9 +30,10 @@ const BrandHero = () => {
           for higher reach
         </h1>
         <p className={`${styles.paragraph} max-w-[690px] mt-5`}>
-        Monetize your social media influence with the first Social Media Influence Card. 
-        Earn exclusive cashback rewards from partnered brands by sharing your purchases on social media. 
-        Start maximizing your earning potential today with The Influencer Card.
+        Amplify Your Brand Reach. 
+        Join our innovative platform and leverage the power of social media influencers to drive your 
+        brand's visibility and engagement. The Influencer Card offers a unique opportunity for brands
+        to collaborate with influencers effortlessly and cost-effectively.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

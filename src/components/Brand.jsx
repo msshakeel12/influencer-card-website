@@ -1,43 +1,39 @@
 import React from 'react';
 import styles from '../style';
 import Footer from './Footer';
-import Stats from './Stats';
 import BrandHero from './BrandHero';
+import Business from './Business';
+import Billing from './Billing';
+import CardDeal from './CardDeal';
+import Testimonials from './Testimonials';
+import Clients from './Clients';
+import HowItWorks from './HowItWorks';
+import CTA from './CTA';
 
 const Brand = () => {
-  return (
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-      <div className={`bg-primary ${styles.flexStart}`}>
-                  <div className={`${styles.boxWidth}`}>
-                    <BrandHero />
-                  </div>
+    return (
+        <div className={`bg-primary ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+                <div className={`bg-primary ${styles.flexStart}`}>
+                    <div className={`${styles.boxWidth}`}>
+                        <BrandHero />
+                    </div>
                 </div>
-        {/* Brand Page Content */}
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
-            <h1 className="font-poppins font-semibold text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-              Brand Page
-            </h1>
-            <p className={`${styles.paragraph} max-w-[690px] mt-5`}>
-              This is where you can add content for your brand page.
-            </p>
-          </div>
+                {/* Brand Page Content */}
+                <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+                    
+                </div>
+                <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+                    <div className={`${styles.boxWidth}`}>
+                        {/* <BrandRewards /> */}
+                        <HowItWorks/>
+                        <CTA />
+                        <Footer />
+                    </div>
+                </div>     
+                </div>
         </div>
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-                  <div className={`${styles.boxWidth}`}>
-                    <Stats />
-                    {/* <Business /> */}
-                    {/* <Billing/> */}
-                    {/* <CardDeal /> */}
-                    {/* <Testimonials/> */}
-                    {/* <Clients/> */}
-                    {/* <CTA /> */}
-                    <Footer />
-                  </div>
-                </div>      </div>
-    </div>
-  );
+    );
 };
 
 export default Brand

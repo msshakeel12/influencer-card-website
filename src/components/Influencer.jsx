@@ -3,6 +3,7 @@ import styles from '../style';
 import Footer from './Footer';
 import Stats from './Stats';
 import InfluencerHero from './InfluencerHero';
+import HowItWorksCreator from './HowItWorksCreator';
 
 const Influencer = () => {
   return (
@@ -14,7 +15,7 @@ const Influencer = () => {
                   </div>
                 </div>
         {/* Brand Page Content */}
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
             <h1 className="font-poppins font-semibold text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
               Brand Page
@@ -23,10 +24,11 @@ const Influencer = () => {
               This is where you can add content for your brand page.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
                   <div className={`${styles.boxWidth}`}>
-                    <Stats />
+                    {/* <Stats /> */}
+                    <HowItWorksCreator />
                     {/* <Business /> */}
                     {/* <Billing/> */}
                     {/* <CardDeal /> */}

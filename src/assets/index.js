@@ -24,8 +24,19 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import mvp from "./mvp.png";
+import purple from "./purple.png";
+import tracking from "./tracking.png";
+import post from "./post.png";
+import food from "./food.png";
+import yellow from "./yellow.png"
 
 export {
+  yellow,
+  food,
+  post,
+  tracking,
+  purple,
   airbnb,
   bill,
   binance,
@@ -52,4 +63,5 @@ export {
   people01,
   people02,
   people03,
+  mvp,
 };
