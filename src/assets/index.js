@@ -29,9 +29,13 @@ import purple from "./purple.png";
 import tracking from "./tracking.png";
 import post from "./post.png";
 import food from "./food.png";
-import yellow from "./yellow.png"
+import yellow from "./yellow.png";
+import brandviews from "./brandviews.png";
+import stories from "./stories.png";
 
 export {
+  stories,
+  brandviews,
   yellow,
   food,
   post,

@@ -1,5 +1,5 @@
 import styles from '../style'
-import { discount, robot } from '../assets'
+import { brandviews, discount} from '../assets'
 import GetStarted from './GetStarted'
 
 const BrandHero = () => {
@@ -38,9 +38,9 @@ const BrandHero = () => {
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img
-          src={robot}
+          src={brandviews}
           alt='billing'
-          className='w-[100%] h-[100%] relative z-[5]'
+          className='w-[60%] h-auto relative z-[5]'
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
