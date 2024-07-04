@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Stats from './Stats';
 import InfluencerHero from './InfluencerHero';
 import HowItWorksCreator from './HowItWorksCreator';
+import CTA from './CTA';
 
 const Influencer = () => {
   return (
@@ -34,7 +35,7 @@ const Influencer = () => {
                     {/* <CardDeal /> */}
                     {/* <Testimonials/> */}
                     {/* <Clients/> */}
-                    {/* <CTA /> */}
+                    <CTA />
                     <Footer />
                   </div>
                 </div>      </div>
